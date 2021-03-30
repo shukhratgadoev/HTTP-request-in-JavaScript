@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import { sendRequest } from '../../utils/fetch-get'
+import { sendRequest } from '../../utils/axios'
 
-
+sendRequest()
 
 
 export const Content = () => {
